@@ -1,0 +1,258 @@
+/* General styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.header nav {
+  display: flex;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header nav li {
+  margin-left: 20px;
+}
+
+.header nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header nav li a:hover {
+  color: #ddd;
+}
+
+/* About section */
+.about {
+  margin-top: 80px;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Upcoming gigs section */
+.gigs {
+  margin-top: 80px;
+}
+
+.gigs h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gigs p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.gigs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gigs li {
+  margin-bottom: 20px;
+}
+
+.gigs li span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.gigs li a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* Gallery section */
+.gallery {
+  margin-top: 80px;
+}
+
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.gallery .images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery .images img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+/* Song details section */
+.songs {
+  margin-top: 80px;
+}
+
+.songs h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.songs p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.songs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.songs li {
+  margin-bottom: 20px;
+}
+
+.songs li span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form input[type="submit"] {
+  display: inline-block;
+  background-color: #ff4c4c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #333;
+}
+
+/* Gallery Section */
+.gallery {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item {
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}

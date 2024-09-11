@@ -1,0 +1,126 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  main {
+    padding: 10px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GEB - Acoustic Musician and Singer/Songwriter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  </head>
+  <body onload="pick_gallery();">
+
+
+    <!--------- NAVIGATION BAR ----------->
+
+    <header>
+      <div class="header-wrapper">
+        <h1>GEB</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#upcoming-gigs">Upcoming Gigs</a></li>
+            <li><a href="#socials">Socials</a></li>
+            <li><a href="#music">New Releases</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+      <!--------- ABOUT ----------->
+      <div class="about-section-image">
+      <section id="about">
+
+        <div class="about-section-text">
+        <h2>About</h2>
+        <p>Hi, I'm GEB. I'm an 18 year old singer songwriter from Bedfordshire, England, and I'm trying to build a following so that I can share my music with more and more people. Music has always been important to me, especially live music, since I was a very young age. Some of my fondest, earliest memories are of my family going to see my dad play his local gigs, and his charisma on stage and the professionalism that he performed with made a lasting impact on me.</p>
+        <p>Today, I write my own music and play some covers, and I'm always looking for an opportunity to play to an audience, so if you are looking for a high quality, professional, engaging and local act to book, don't hesitate to get in touch!</p>
+      </div>
+
+      </section>
+      </div>
+      <p></p>
+
+
+
+      <hr>
+
+
+      <!--------- UPCOMING GIGS ----------->
+
+    
+      <section id="upcoming-gigs">
+        <h2>Upcoming Gigs</h2>
+
+    <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script>
+
+    <a class="bit-widget-initializer" data-artist-name="GEB" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#000000" data-link-color="#666" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-display-start-time="true" data-link-text-color="#FFFFFF" data-display-lineup="false" data-display-play-my-city="false" data-separator-color="rgba(255, 255, 255, 0.5)">
+  </a>
+      </section>
+
+
+      <hr>
+
+
+      <!--------- SOCIALS ----------->
+
+      <section id="socials">
+
+        <h2>Socials</h2>
+
+        <ul class="social-grid">
+
+          <li>
+            <button class="social" onclick="window.location.href='https://www.instagram.com/geb_on_stage/?igshid=YmMyMTA2M2Y%3D'">
+              <img src="images/socials/instagram.svg" alt="Instagram Link Icon">
+            </button>
+          </li>
+          <li>
+            <a href="mailto:musiciangeb@gmail.com">
+              <button class="social">
+                <img src="images/socials/email.png" alt="Email Link Icon">
+              </button>
+            </a>
+          </li>
+          <li>
+            <button class="social" onclick="window.location.href='https://www.bandsintown.com/a/15519838'">
+              <img src="images/socials/bandsintown.png" alt="Bands In Town Link Icon">
+            </button>
+          </li>
+          <li>
+            <button class="social" onclick="window.location.href='https://open.spotify.com/artist/35ILgNh5TmqnsWpBhS0UkC'">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Spotify.png/256px-Spotify.png" alt="Spotify Link Icon">
+            </button>
+          </li>
+          <li>
+            <button class="social" onclick="window.location.href='https://music.apple.com/gb/artist/geb/1731892959'">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/256px-Apple_Music_icon.svg.png" alt="Apple Music Link Icon">
+            </button>
+          </li>
+          <li>
+            <button class="social" onclick="window.location.href='https://www.youtube.com/channel/UCBqArRH7qwBtuzH8ONouh2A'">
+              <img src="images/socials/youtube.png" alt="Youtube Link Icon">
+            </button>
+          </li>
+
+        </ul>
+
+      </section>
+
+  <hr>
+
+
+  <!--------- MUSIC ----------->
+
+  <section id="music">
+    <h2>New Releases</h2>
+    <div class="music">
+
+      <ul>
+
+
+      
+      <li>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6Ms26BNMBCVRzAL4w0VcZu?utm_source=generator&theme=0" width="300" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4X0KhRJFUWvJKqDFSMG9Mp?utm_source=generator&theme=0" width="300" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </li>
+
+    </ul>
+    </div>
+
+    </section>
+
+
+  <hr>
+
+
+    <!--------- GALLERY ----------->
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery", id="gallery_list">
+      <!-- Space where gallery is placed -->
+      Error loading gallery
+    </div>
+    <div id="overlay">
+      <div id="modal">
+        <img src="">
+        <button id="close-btn">&times;</button>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+
+
+    <!--------- REVIEWS ----------->
+
+  <section id="reviews">
+    <h2>Reviews</h2>
+    <ul class="reviews-grid">
+
+      <li>
+      <button class="review">
+        <div class="review-score">⭐⭐⭐⭐⭐</div>
+        <div class="reviewer-name">Matt Roberts</div>
+        <div class="reviewer-comment">Geb always delivers an engaging show!</div>
+      </button>
+      </li>
+
+      <li>
+        <button class="review">
+          <div class="review-score">⭐⭐⭐⭐⭐</div>
+          <div class="reviewer-name">Vicky</div>
+          <div class="reviewer-comment">Would recommend booking Geb for any occasion! He is a complete pleasure to deal with, professional from beginning to end.</div>
+        </button>
+        </li>
+
+      <li>
+        <button class="review">
+          <div class="review-score">⭐⭐⭐⭐⭐</div>
+          <div class="reviewer-name">Smokey & Bear</div>
+          <div class="reviewer-comment">We love having Geb play at the Smokey and Bear Open Mic nights! Always one to get the crowd going!</div>
+        </button>
+        </li>
+      
+
+
+    </ul>
+  </section> 
+
+
+
+  <hr>
+
+
+
+  <!--------- CONTACT ----------->
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <script src="scripts.js"></script>
+</main>
+
+
+
+<hr>
+
+
+<!--------- FOOTER ----------->
+
+<footer>
+  <p>© 2023 George Berkeley (GEB)</p>
+  <p>Written by George Berkeley</p>
+</footer>
+  </body>
+</html>
